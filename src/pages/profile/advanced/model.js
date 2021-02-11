@@ -15,6 +15,9 @@ const Model = {
       });
     },
   },
+
+
+
   reducers: {
     show(state, { payload }) {
       return { ...state, ...payload };
